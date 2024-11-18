@@ -1,0 +1,67 @@
+/* *{
+    padding: 3px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color: brown;
+    text-decoration: underline;
+}
+
+header{
+    border: 2px solid red;
+}
+
+nav{
+    border: 2px solid cadetblue;
+}
+
+a{
+    border: 2px solid greenyellow;
+}
+
+article{
+    border: 2px solid cyan;
+}
+
+section{
+    border: 2px solid purple;
+}
+
+aside{
+    border: 2px solid green;
+}
+
+footer{
+    border: 2px solid goldenrod
+} */
+
+p:first-child{
+    background-color:aquamarine ;
+
+}
+
+p:last-child{
+    background-color:silver;
+   
+}
+
+
+p:nth-child(even){
+    color: blue;
+}
+
+p:nth-child(odd){
+    color: blueviolet;
+}
+
+p:nth-child(5){
+    background-color: antiquewhite;
+}
+
+p:last-child::first-line, p:first-child::first-letter{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
