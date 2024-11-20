@@ -3,76 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mooli&family=Quicksand:wght@500&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">    
+    <link rel="stylesheet" href="estilos.css">
     <title>Curso FrontEnd Developer</title>
 </head>
 
-<style>
-    p:nth-child(odd){
-        color: blue;
-    }
+<body class="body">
 
-    p:first-child::first-letter{
-        color: red;
-        font-size: 30px;
-        font-weight: bold;
-    }
-</style>
-<body>
-
-    <h1>Aplicando Estilos con CSS</h1>
-    
-
-    <header>
-        <h2>Este es el header</h2>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut asperiores harum delectus exercitationem natus, pariatur qui facilis adipisci sed voluptate. Adipisci nostrum repellat iure, natus iusto minus obcaecati doloribus rem?</p>
+    <header class="header">
+        <img class="header__img" src="/img/logo_LS.png" alt="">
+        <div class="header__menu">
+            <div class="header__menu--profile">
+                <img src="/img/user_white.png" alt="User">
+                <p>Perfil</p>
+            </div>
+            <ul>
+                <li><a href="/">Cuenta</a></li>
+                <li><a href="/">Cerrar Sesión</a></li>
+            </ul>
+        </div>
     </header>
 
-    <nav>
-        <h2>Este es el nav</h2>
-        <a href="">Home</a>
-        <a href="">Sobre Nosotros</a>
-        <a href="">Contáctenos</a>
+    <nav class="nav">
     </nav>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut deleniti eaque saepe vero nisi ipsa amet pariatur quia assumenda, illo, sit maiores nihil exercitationem vitae, cupiditate repellat ratione velit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut deleniti eaque saepe vero nisi ipsa amet pariatur quia assumenda, illo, sit maiores nihil exercitationem vitae, cupiditate repellat ratione velit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut deleniti eaque saepe vero nisi ipsa amet pariatur quia assumenda, illo, sit maiores nihil exercitationem vitae, cupiditate repellat ratione velit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut deleniti eaque saepe vero nisi ipsa amet pariatur quia assumenda, illo, sit maiores nihil exercitationem vitae, cupiditate repellat ratione velit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut deleniti eaque saepe vero nisi ipsa amet pariatur quia assumenda, illo, sit maiores nihil exercitationem vitae, cupiditate repellat ratione velit.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias aut deleniti eaque saepe vero nisi ipsa amet pariatur quia assumenda, illo, sit maiores nihil exercitationem vitae, cupiditate repellat ratione velit.</p>
 
     <article>
-        <h2>Este es un article</h2>
 
         <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae maxime repellendus laudantium sed veniam, ex consequuntur excepturi hic corporis, nesciunt, rem minus nemo necessitatibus tempore enim quod amet eos.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aspernatur numquam harum facere doloribus? Error nulla quae est placeat omnis voluptate adipisci nesciunt repellat architecto sint unde labore, quis aliquam!</p>
         </section>
     </article>
 
         <section>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam beatae maxime repellendus laudantium sed veniam, ex consequuntur excepturi hic corporis, nesciunt, rem minus nemo necessitatibus tempore enim quod amet eos.</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam aspernatur numquam harum facere doloribus? Error nulla quae est placeat omnis voluptate adipisci nesciunt repellat architecto sint unde labore, quis aliquam!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum necessitatibus dignissimos molestias laboriosam odio pariatur, deleniti dolorem, illum quisquam nisi nostrum soluta odit voluptatum? Similique explicabo libero facere autem architecto.</p>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda animi vero commodi quis optio debitis? Rem quibusdam sunt, inventore eum facere quas animi velit eaque nisi suscipit, aliquam officia nihil!</p>
         </section>
     </article>
 
     <aside>
-        <div>
-            <h3>Información 1</h3>
-        </div>
-        <div>
-            <h3>Información 2</h3>
-        </div>
-        <div>
-            <h3>Información 3</h3>
-        </div>
     </aside>
 
     <footer>
-        <p>&copy Luis Santos 2024</p>
     </footer>
 
 
