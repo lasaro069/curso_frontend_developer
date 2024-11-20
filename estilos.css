@@ -74,3 +74,28 @@ body {
     margin: 0px;
     color: aliceblue;
 }
+
+.main {
+    height: 300px;
+}
+
+.main__title {
+    color: white;
+    font-size: 25px;
+}
+
+.input {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 2px solid whitesmoke;
+    border-radius: 50px;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    width: 70%;
+    padding: 0px 20px;
+    outline: none;
+}
+
+::placeholder {
+    color: white;
+}
